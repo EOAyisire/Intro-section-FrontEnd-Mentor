@@ -10,10 +10,16 @@ body {
   background-color: hsl(0, 0%, 98%);
 }
 
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 .logo {
   font-size: 40px;
   font-weight: 700;
-  margin: 20px;
+  margin: 40px;
 }
 
 .logo-menu-container {
@@ -27,27 +33,35 @@ a {
 li {
   list-style: none;
 }
-.features-dropdown,
-.company-dropdown {
+.dropdown {
+  display: none;
+  background-color: white;
 }
 
 ul {
   display: flex;
 }
-.navbar {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+
+.menu {
+  gap: 1em;
 }
 
-.login-reg {
+.menu li {
+  padding: 5px 14px;
+}
+.sign-up {
   display: flex;
   align-items: center;
   gap: 20px;
+  margin-right: 40px;
 }
 
 .reg-btn {
   padding: 10px 20px;
   background: none;
-  border: 1px solid hsl(0, 0%, 8%);
+  color: hsl(0, 0%, 8%);
+  font-size: 14px;
+  font-weight: 700;
+  border: 2px solid hsl(0, 0%, 8%);
+  border-radius: 10px;
 }
