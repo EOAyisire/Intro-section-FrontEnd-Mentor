@@ -1,11 +1,58 @@
 @import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap");
+
 /* layout */
+
 .hero {
   display: flex;
+  justify-content: space-around;
+}
+
+.vertical-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-left: 90px;
+}
+
+.clients {
+  display: flex;
+  align-items: center;
+  gap: 40px;
 }
 .hero-img {
-  width: 400px;
-  height: 500px;
+  width: 380px;
+  height: 470px;
 }
 
 /* Typography */
+.hero-text h1 {
+  font-size: 70px;
+  font-weight: 700;
+  color: hsl(0, 0%, 8%);
+}
+
+.hero-text p {
+  font-size: 16px;
+  font-weight: 500;
+  color: hsl(0, 0%, 41%);
+  width: 430px;
+  margin-top: 40px;
+  margin-bottom: 50px;
+  line-height: 1.5;
+}
+
+.hero-text button {
+  padding: 10px 25px;
+  border: none;
+  border-radius: 10px;
+  background-color: hsl(0, 0%, 8%);
+  color: white;
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 90px;
+}
+
+footer {
+  text-align: center;
+  padding: 40px 120px;
+}
